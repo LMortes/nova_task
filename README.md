@@ -43,7 +43,7 @@ python manage.py runserver
 
 ## Пример работы API
 ```bash
-POST /api/create-file - получить список курсов валют за конкретную дату.
+POST http://31.129.100.130/api/create-file - создать файл с содержимым на GD.
 ```
 Тело запроса:
 ```json
